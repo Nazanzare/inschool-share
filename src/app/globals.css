@@ -104,6 +104,29 @@
   .bg-card {
     background-color: var(--color-card);
   }
+
+  .bg-card-80 {
+    background-color: color-mix(in srgb, var(--color-card) 80%, transparent);
+  }
+  .bg-card-85 {
+    background-color: color-mix(in srgb, var(--color-card) 85%, transparent);
+  }
+  .bg-primary-glow {
+    background-color: color-mix(in srgb, var(--color-primary-main) 15%, transparent);
+  }
+  .bg-primary-light-glow {
+    background-color: color-mix(in srgb, var(--color-primary-light) 25%, transparent);
+  }
+  .bg-primary-light-tint {
+    background-color: color-mix(in srgb, var(--color-primary-light) 10%, transparent);
+  }
+  .bg-primary-light-soft {
+    background-color: color-mix(in srgb, var(--color-primary-light) 15%, transparent);
+  }
+  .bg-primary-light-medium {
+    background-color: color-mix(in srgb, var(--color-primary-light) 20%, transparent);
+  }
+
   .bg-primary {
     background-color: var(--color-primary-main);
   }
